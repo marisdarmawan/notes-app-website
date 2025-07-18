@@ -28,7 +28,7 @@ Pastikan Anda sudah memiliki [Node.js](https://nodejs.org/) (disarankan versi LT
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/USERNAME/NAMA-REPOSITORI.git](https://github.com/USERNAME/NAMA-REPOSITORI.git)
+    git clone [https://github.com/marisdarmawan/notes-app-website.git](https://github.com/marisdarmawan/notes-app-website.git)
     ```
 
 2.  **Masuk ke direktori proyek:**
