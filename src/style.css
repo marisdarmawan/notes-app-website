@@ -1,0 +1,65 @@
+/* Variabel Global untuk Warna dan Font */
+:root {
+  --background-color: #f0f0f0;
+  --main-text-color: #333;
+  --primary-color: #4a55a2;
+  --secondary-color: #c5dff8;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Reset dan Gaya Dasar Body */
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* Posisi Indikator Loading di Tengah Layar */
+loading-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* Gaya untuk Setiap Bagian (Catatan Aktif & Arsip) */
+.notes-section {
+  max-width: 1200px;
+  /* Memberi jarak vertikal antar bagian */
+  margin: 3rem auto;
+}
+
+/* Gaya untuk Judul Bagian */
+.section-title {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Layout Grid untuk Daftar Catatan */
+.notes-grid {
+  display: grid;
+  /* Membuat kolom responsif */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Memberi jarak antar kartu catatan */
+  gap: 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+/* Gaya untuk Pesan Saat Daftar Catatan Kosong */
+.empty-message {
+  color: #777;
+  text-align: center;
+  /* Membuat pesan mengambil seluruh lebar grid */
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+}

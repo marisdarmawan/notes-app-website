@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <app-bar title="Aplikasi Catatanku"></app-bar>
+
+    <loading-indicator style="display: none"></loading-indicator>
+
+    <main>
+      <note-input></note-input>
+
+      <section class="notes-section">
+        <h2 class="section-title">Catatan Aktif</h2>
+        <div id="active-notes-list" class="notes-grid"></div>
+      </section>
+
+      <section class="notes-section">
+        <h2 class="section-title">Arsip</h2>
+        <div id="archived-notes-list" class="notes-grid"></div>
+      </section>
+    </main>
+
+    </body>
+</html>

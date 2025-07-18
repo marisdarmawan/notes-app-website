@@ -1,0 +1,6 @@
+# Skip beberapa folder dan file yang tidak perlu untuk di-commit ke github
+# Folder dependensi (ukurannya sangat besar)
+/node_modules
+
+# Folder hasil build
+/dist
